@@ -96,4 +96,15 @@ npx hardhat run scripts/deploy.js
 12:22 Adding scripts
 - ```yarn test```
 
+12:25 Pushing to Github
+- create a new repository on Github (don't select README or gitignore)
+- ```git init``` or ```git init -b main``` (check main folder is deleted)
+- ```git status``` - to see selected files
+- ```git add .``` - to select files to upload (all)
+- ```git status``` - should now be showing green
+- ```git commit -m 'initial commit'```
+- ```git remote add origin <url>``` (check using http address)
+- ```git remote -v```
+-```git push origin main```
+
 
